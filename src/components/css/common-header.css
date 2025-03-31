@@ -1,0 +1,19 @@
+.availability-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-bottom: 2px solid var(--muted-background);
+}
+
+.availability-title {
+  width: 50%;
+}
+
+.availability-title div {
+  font-weight: 600;
+}
+
+.availability-title small {
+  color: var(--primary-color);
+}

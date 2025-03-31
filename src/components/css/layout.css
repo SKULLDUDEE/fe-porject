@@ -1,0 +1,48 @@
+.layout-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.aside-wrapper {
+  min-width: 15vw;
+  max-width: 250px;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.main-wrapper {
+  flex-grow: 1;
+  min-height: 100vh;
+  height: 100vh;
+  padding: 2rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  transition: padding 0.3s ease-in-out;
+}
+
+.private-footer {
+  margin: 3.5rem 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .layout-wrapper {
+    flex-direction: column;
+  }
+
+  .main-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .private-footer {
+    margin: 4rem 0;
+  }
+}

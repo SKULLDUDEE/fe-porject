@@ -1,0 +1,22 @@
+.logo-link {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+  height: auto;
+}
+
+.logo-wrapper span {
+  font-weight: var(--extra-bold-weight);
+  font-size: var(--medium-font-size);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}

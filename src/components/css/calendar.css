@@ -1,0 +1,120 @@
+.calendar_wrapper {
+  padding: 0.5rem 1rem;
+}
+
+.calendar-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.calendar_navigation-wrapper,
+.calendar_view-options {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+  align-items: center;
+  width: 30%;
+  max-width: 30%;
+  flex-wrap: wrap;
+}
+
+.calendar_view-options {
+  gap: 0.5rem;
+  width: max-content;
+  max-width: 50%;
+  margin-right: auto;
+}
+
+.calendar_view-options .view-option {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  color: var(--dark-color);
+}
+
+.calendar_view-options .view-option:hover,
+.calendar_view-options .active-view {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.calendar_search-label {
+  min-width: 150px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.calendar_search-label .calendar_search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--dark-color);
+  width: 100%;
+}
+
+.calendar_current-date {
+  font-size: var(--small-font-size);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+.custom-event {
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.parent-custom-event {
+  background-color: #e3f2fd;
+  border-left: 4px solid var(--primary-color) !important;
+  width: 100% !important;
+  height: 100%;
+  color: #1e3a8a;
+}
+
+.custom-event .event-time {
+  font-weight: bold;
+}
+
+.custom-event .calender_event-title {
+  font-size: var(--small-font-size);
+  color: #1e3a8a;
+}
+
+.parent-custom-event:has(.rejected-event-class) {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  opacity: 0.7;
+  border-color: var(--dark-color) !important;
+}
+
+.rejected-event-class .calender_event-title {
+  color: var(--dark-color);
+}
+
+@media (max-width: 768px) {
+  .calendar-toolbar {
+    display: none;
+  }
+
+  .calendar_wrapper .availability-header {
+    display: none;
+  }
+
+  .calendar_wrapper {
+    padding: 1rem;
+  }
+}

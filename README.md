@@ -1,5 +1,6 @@
 # CNNCT 
-CNNCT is a modern web application designed for seamless meeting and event scheduling. Built with React, Node.js, Express, and MongoDB, it allows users to manage their availability, create events, and coordinate efficiently with participants.
+CNNCT is a modern web application designed for seamless meeting and event scheduling. It allows users to manage their availability, create events, and coordinate efficiently with participants.
+
 
 ## Features
 - **User Authentication** (Signup/Login)

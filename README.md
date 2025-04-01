@@ -11,25 +11,6 @@ CNNCT is a modern web application designed for seamless meeting and event schedu
 - **Calendar View**
 - **Availability View**
 
-## Tech Stack
-
-### Frontend
-- React
-- TypeScript
-- BootStrap
-- React Router
-- React Hook Form
-
-
-### Backend
-- Node.js
-- Express
-- MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt (Password Hashing)
-
-
 
 
 ### Clone the Repository

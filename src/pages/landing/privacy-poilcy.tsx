@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
             <h2 className="landing_sub-heading">10. Contact Information</h2>
             <div className="landing_paragraph">
               For any privacy-related queries, please contact us at
-              shikharvarshney10@gmail.com.
+              contact10@gmail.com.
             </div>
           </section>
         </div>

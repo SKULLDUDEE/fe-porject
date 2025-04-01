@@ -140,7 +140,7 @@ const TermsAndConditions = () => {
           <section className="terms-section">
             <h2 className="landing_sub-heading">12. Contact Information</h2>
             <div className="landing_paragraph">
-              For any queries, please contact us at shikharvarshney10@gmail.com.
+              For any queries, please contact us at contact@gmail.com.
             </div>
           </section>
         </div>
